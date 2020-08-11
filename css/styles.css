@@ -1,0 +1,29 @@
+body {
+    font-family: poppins;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.main-nav ul li {
+    flex-direction: row;
+    padding: 0px 10px 0px 10px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: orangered;
+    padding: 5px 10px 5px 10px;
+}
